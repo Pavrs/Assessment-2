@@ -34,7 +34,7 @@ def linear(A, target):                  #done
 
 linear(A, target)
 
-def insertion(A):                       #???? does not order only shifts 2 to the left making negatives, idk why
+def insertion(A):                       #???? does not order only shifts 2 to the left making negatives
     for i in range(0,n-1):
         key=i+1
         for j in range(0,n-1-i):
@@ -47,7 +47,7 @@ def insertion(A):                       #???? does not order only shifts 2 to th
 l=insertion(A)
 print(l)
 
-def bubble(A):                          #????
+def bubble(A):                          #???? too many j j+1 and A
     for i in range(0,n-1):
         swapped = True
         for j in range(0,n-1-i):
